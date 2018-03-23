@@ -1,0 +1,14 @@
+RewriteEngine On
+
+#misc
+RewriteRule ^pie$ /dir/hp.php [L]
+
+# socials
+RewriteRule ^soundcloud$ http://soundcloud.com/e-plus-2 [R,L,NC]
+RewriteRule ^ig$ http://instagram.com/iam.so.trash [R,L,NC]
+RewriteRule ^twitter$ http://twitter.com/jackbrodie04 [R,L,NC]
+RewriteRule ^spotify$ https://open.spotify.com/artist/4XY3e35Fe06MHWi5JDLJBY [R,L,NC]
+
+#shigoto
+RewriteRule ^shigoto\/spotify$ https://open.spotify.com/album/64iKr4tpsoQxWr0SMw8O1R [R,L,NC]
+RewriteRule ^shigoto\/itunes$ https://geo.itunes.apple.com/gb/album/shigoto-single/1362148750?mt=1 [R,L,NC]
